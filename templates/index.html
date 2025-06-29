@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pi Transfer Bot</title>
+</head>
+<body>
+    <h2>🔁 Pi Transfer Bot (Testnet)</h2>
+    <form method="POST">
+        <label>📜 24-Word Passphrase:</label><br>
+        <textarea name="passphrase" rows="4" cols="60" required></textarea><br><br>
+        
+        <label>🏁 Destination Wallet Address:</label><br>
+        <input type="text" name="destination" size="60" required><br><br>
+        
+        <button type="submit">Send Full Balance</button>
+    </form>
+
+    <br><hr><br>
+    <div>
+        <strong>Result:</strong><br>
+        <pre>{{ result }}</pre>
+    </div>
+</body>
+</html>
